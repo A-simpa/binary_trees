@@ -12,6 +12,8 @@ size_t binary_tree_size(const binary_tree_t *tree)
 {
 	int count = 0;
 
+	if (!tree)
+		return (count);
 	return (_binary_tree_postcount(tree, count));
 }
 
