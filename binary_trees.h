@@ -43,4 +43,6 @@ int isleaf(const binary_tree_t *node);
 size_t binary_tree_depth(const binary_tree_t *tree);
 int _binary_tree_postcount(const binary_tree_t *tree, int count);
 size_t binary_tree_size(const binary_tree_t *tree);
+int binary_tree_leafcount(const binary_tree_t *tree, int count);
+size_t binary_tree_leaves(const binary_tree_t *tree);
 #endif /* _BINARY_TREES_H_ */
